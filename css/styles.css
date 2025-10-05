@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url(../font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf);
+}
+
+body {
+    font-family: "Satoshi";
+    background-color: black;
+    color: white;
+
+    .container__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-title {
+    font-size: 1.5rem;
+    font-weight:bold;
+    margin-left: 1rem;
+}
+
+.nav-menu {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+.heroespicture {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+    height: 100vh;
+
+}
+
+.first-title {
+    color:#FFFFFF;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.second-title {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
