@@ -15,7 +15,7 @@ body {
 }
 
 .left-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight:bold;
     margin-left: 1rem;
 }
@@ -28,24 +28,46 @@ body {
     margin-right: 1rem;
 }
 
-.heroespicture {
+.container__header {
+    margin-bottom: 1rem;
+}
+
+}
+.picture__center, .hero-banner img {
     width: 100%;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border-radius: 20px;
-    height: 100vh;
+    position : relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+    border-radius: 15px;
+
 
 }
 
 .first-title {
-    color:#FFFFFF;
-    font-size: 3rem;
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 5rem;
     font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    padding-bottom: 4rem;
 }
 
 .second-title {
-    color: #FFFFFF;
-    font-size: 1rem;
+    display: block;
+    width: 100%;
+    color: white,
+    font-size: 4rem;
     font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    margin-top : 3rem;
+    padding-top : 5rem;
+     
 }
 
