@@ -6,27 +6,44 @@
 body {
     font-family: "Satoshi";
     background-color: black;
-    color: white;
+    color: #FFFFFF;
+}
 
-    .container__header {
-    display: flex;
+.container-header {
+    display : flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.left-title {
-    font-size: 2rem;
-    font-weight:bold;
+    align-items: center;
     margin-left: 1rem;
-}
+    width : 100%; 
 
-.nav-menu {
-    font-weight: bold;
+    
+
+    }
+    
+.container-header, .left-title {    
+font-size: 1.5rem;
+font-weight:bold;
+color : #FFFFFF; 
+    }
+
+.container-header__nav-menu {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    justify-content: flex-end;
+    gap : 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+
+.picture-center__hero-banner  {
+    margin-left: 1rem;
     margin-right: 1rem;
+    width : 100%;
+
 }
+
+/*
 
 .container__header {
     margin-bottom: 1rem;
@@ -71,3 +88,4 @@ body {
      
 }
 
+/*
