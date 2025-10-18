@@ -1,47 +1,81 @@
 @font-face {
     font-family: "Satoshi";
-    src: url(../font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf);
+    src: url("../font/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
 }
 
 body {
-    font-family: "Satoshi";
+    font-family: "Satoshi", sans-serif;
     background-color: black;
     color: #FFFFFF;
+    width: 100%;
 }
 
 .container-header {
     display : flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-left: 1rem;
-    width : 100%; 
+    width : 100%;
 
-    
 
     }
     
-.container-header, .left-title {    
+.container-header__left-title {    
 font-size: 1.5rem;
-font-weight:bold;
-color : #FFFFFF; 
+font weight: 
+color: #FFFFFF;
+border: 1px solid red;
+margin-top: 2rem;
+margin-bottom: 2rem;
+
     }
 
-.container-header__nav-menu {
+.container-header__navig-menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap : 2rem;
     font-size: 1rem;
     font-weight: bold;
+    border: 1px solid red;
     }
 
 .picture-center__hero-banner  {
-    margin-left: 1rem;
-    margin-right: 1rem;
     width : 100%;
+    border-radius: 30px;
+    height: 100vh;
+    position: relative;
 
 }
+
+.picture-center__first-title {
+    position : absolute;
+    z-index: 2;
+    top : 46%;
+    left: 40%;
+    color : #FFFFFF;
+
+    display: block;
+    font-size: 3rem; 
+    font-weight: bolder;
+}
+
+.picture-center__second-title {
+    position: absolute;
+    z-index: 2;
+    color : #FFFFFF; 
+    top : 59%;
+    left: 30%;
+
+    display: block;
+    font-size: 1.5rem; 
+    font-weight:bolder
+}
+
+
 
 /*
 
@@ -51,27 +85,20 @@ color : #FFFFFF;
 
 }
 .picture__center, .hero-banner img {
-    width: 100%;
-    position : relative;
+        position : relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-right: 2rem;
-    margin-left: 0.5rem;
-    border-radius: 15px;
 
 
 }
 
 .first-title {
-    display: block;
-    width: 100%;
-    color: white;
-    font-size: 5rem;
-    font-weight: bold;
-    position: absolute;
-    z-index: 2;
+    
+    
+
+    
     padding-bottom: 4rem;
 }
 
