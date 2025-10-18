@@ -139,45 +139,76 @@ margin-left: 1rem;
 
 h1 {
     text-align: center;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     ;
+}
+
+strong {
+  color: #A29BFE;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
+    gap: 1rem;
 }
 
+.bloc1, .bloc2, .bloc3, .bloc4, .bloc5 {
+  border : 1px solid #A29BFE;
+  border-radius: 15px;
+  text-align: center;
+} 
 
-
-
-
-/*
-
-}
-.picture__center, .hero-banner img {
-        position : relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-
+.services-grid {
+  color : #A29BFE;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
-
-.second-title {
-    display: block;
-    width: 100%;
-    color: white,
-    font-size: 4rem;
-    font-weight: bold;
-    position: absolute;
-    z-index: 2;
-    margin-top : 3rem;
-    padding-top : 5rem;
-     
+.services-grid__card {
+  color : #FFFFFF;
+  font-size: 1rem;
+  font-weight:500;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
-/*
+.services-grid__card {
+  color : #FFFFFF;
+  font-size: 1rem;
+  font-weight:500;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.services-grid__card__tarif {
+  display: inline-block;
+  color : #FFFFFF;
+  background-color: #A29BFE;
+  font-size: rem;
+  font-weight:900;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  padding : 1rem;
+  border-radius: 30px;
+  
+}
+
+.services-grid__card__tarif__conditions {
+  color : #FFFFFF;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-bottom: 10rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+
+}
+
