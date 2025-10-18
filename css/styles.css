@@ -1,8 +1,71 @@
 @font-face {
-    font-family: "Satoshi";
-    src: url("../font/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf") format("opentype");
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../E04-SA03E04-bonus-heroes-league-BrahimElGhachi/font/Satoshi_Complete/Fonts/OTF/Satoshi-BlackItalic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
 }
 
 body {
@@ -17,19 +80,18 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 1rem;
     width : 100%;
 
 
     }
     
-.container-header__left-title {    
-font-size: 1.5rem;
-font weight: 
+.container-header__left-title { 
 color: #FFFFFF;
-border: 1px solid red;
+font-weight: 900;
+font-size: 2rem;
 margin-top: 2rem;
 margin-bottom: 2rem;
+margin-left: 1rem;
 
     }
 
@@ -38,9 +100,9 @@ margin-bottom: 2rem;
     flex-direction: row;
     justify-content: flex-end;
     gap : 2rem;
-    font-size: 1rem;
-    font-weight: bold;
-    border: 1px solid red;
+    font-size: 1.2rem;
+    font-weight: 900;
+
     }
 
 .picture-center__hero-banner  {
@@ -48,40 +110,50 @@ margin-bottom: 2rem;
     border-radius: 30px;
     height: 100vh;
     position: relative;
-
-}
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
 
 .picture-center__first-title {
     position : absolute;
     z-index: 2;
-    top : 46%;
+    top : 53%;
     left: 40%;
     color : #FFFFFF;
-
     display: block;
-    font-size: 3rem; 
-    font-weight: bolder;
+    font-size: 3.5rem; 
+    font-weight: 900;
 }
 
 .picture-center__second-title {
     position: absolute;
     z-index: 2;
     color : #FFFFFF; 
-    top : 59%;
+    top : 65%;
     left: 30%;
-
     display: block;
-    font-size: 1.5rem; 
-    font-weight:bolder
+    font-size: 1.3rem; 
+    font-weight:900;
+    letter-spacing: 0.1rem;
 }
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem
+    ;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+
 
 
 
 /*
-
-.container__header {
-    margin-bottom: 1rem;
-}
 
 }
 .picture__center, .hero-banner img {
@@ -94,13 +166,6 @@ margin-bottom: 2rem;
 
 }
 
-.first-title {
-    
-    
-
-    
-    padding-bottom: 4rem;
-}
 
 .second-title {
     display: block;
