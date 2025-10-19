@@ -247,32 +247,25 @@ strong {
   margin-right: 1rem;
 }
 
+
 .picture-hero {
   width: 100%;
   height: auto;
-  position : relative;
   border-radius: 15px;
 }
 
 .hero-name__description {
-  position: absolute;
-  z-index: 2;
   display: block;
   top : 65%;
   left: 50%;
-  color: #FFFFFF;
+  color: red;
   }
 
 .hero-name__description--hidden {
-  position: absolute;
-  z-index: 2;
-  display: block;
   top : 50%;
   left: 30%;
-  color: #FFFFFF;
+  color: red
 }
-
-
 
 
 
