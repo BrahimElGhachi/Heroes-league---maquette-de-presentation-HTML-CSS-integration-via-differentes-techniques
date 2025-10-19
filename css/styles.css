@@ -243,27 +243,33 @@ strong {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap : 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .picture-hero {
   width: 100%;
+  height: auto;
   position : relative;
   border-radius: 15px;
 }
 
 .hero-name__description {
   position: absolute;
+  z-index: 2;
+  display: block;
   top : 65%;
-  left: 30%;
-}
+  left: 50%;
+  color: #FFFFFF;
+  }
 
-.hero-name__description__hidden {
+.hero-name__description--hidden {
   position: absolute;
   z-index: 2;
-  top : 65%;
+  display: block;
+  top : 50%;
   left: 30%;
-
-
+  color: #FFFFFF;
 }
 
 
