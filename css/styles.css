@@ -327,3 +327,16 @@ h4 {
   border-radius: 15px;
   padding: 1.2rem;
 }
+
+.grid-container__clients {
+  display: flex;
+  flex-direction: row;
+  gap : 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.picture-client {
+  width: 100%;
+
+}
