@@ -273,11 +273,24 @@ strong {
 }
 
 .hero-name__description--hidden {
-  top : 50%;
-  left: 30%;
+  top : 0%;
+  left: 0%;
+  padding: 1rem;
+  padding-bottom: 3rem;
   color: #FFFFFF;
+  font-style: italic;
+  font-size: 1.2rem;
   position:absolute;
-  opacity: 0;
+  background-color: rgba(162, 155, 254, 0.5);
+  display: block;
+  width: 100%;  
+  opacity: 0%;
+  transition: opacity 0.3s ease;
+  text-align: center;
+}
+
+.bloc1-heros, .hero-name__description--hidden:hover {
+  opacity: 1;
 }
 
 .description-text {
@@ -287,22 +300,23 @@ strong {
   padding-bottom: 2rem;
 }
 
-aside {
+.hero-name__description--end {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
 }
 
-.hero-name__description--end {
+.hero-name__description--end--button {
   display: block;
+  width: 100%;
   text-align: center;
   color : #FFFFFF;
-  background-color: #A29BFE;
+  background-color:#A29BFE;
   font-size: 1rem;
   font-weight:900;
   margin-bottom: 3rem;
   margin-top: 1rem;
   border-radius: 30px;
-  
 }
+
