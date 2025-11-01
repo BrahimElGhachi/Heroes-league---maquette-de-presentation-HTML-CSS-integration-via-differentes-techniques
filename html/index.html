@@ -200,21 +200,24 @@
                         <h4>Tous nos héros</h4>
 
                 </section>
-                
+
                 <section>
                         <h1>Les Témoignages de nos clients</h1>
 
                         <div class="containers-blocs">
 
                                 <article class="bloc1-client">
-                                        <img class="picture-client" src="../ressources/images/testimony-1.png" alt="photo-client1">
+                                        <img class="picture-client" src="../ressources/images/testimony-1.png"
+                                                alt="photo-client1">
                                         <p class="client-name">Tombédeu O.</p>
-                                        <p class="client-name__testimonial">"Grâce à Heros League, j'ai pu déménager super rapidement. Attention à l'odeur laissée par les tentacules
+                                        <p class="client-name__testimonial">"Grâce à Heros League, j'ai pu déménager
+                                                super rapidement. Attention à l'odeur laissée par les tentacules
                                                 ceci-dit. Merci Poulpy&nbsp;!"</p>
                                 </article>
 
                                 <article class="bloc2-client">
-                                        <img class="picture-client" src="../ressources/images/testimony-2.png" alt="photo-client2">
+                                        <img class="picture-client" src="../ressources/images/testimony-2.png"
+                                                alt="photo-client2">
                                         <p class="client-name">Jella N.</p>
                                         <p class="client-name__testimonial">"Ultraquenarde m'a sauvé la vie ! J'allais
                                                 tout perdre et sur ses conseils j'ai investi dans les bitcoins, affaire
@@ -222,16 +225,19 @@
                                 </article>
 
                                 <article class="bloc3-client">
-                                        <img class="picture-client" src="../ressources/images/testimony-3.png" alt="photo-client3">
+                                        <img class="picture-client" src="../ressources/images/testimony-3.png"
+                                                alt="photo-client3">
                                         <p class="client-name">Bob O.</p>
-                                        <p class="client-name__testimonial">"Je ne remercierai jamais assez Carotte Woman
+                                        <p class="client-name__testimonial">"Je ne remercierai jamais assez Carotte
+                                                Woman
                                                 d'avoir retrouvé mon chat. Apparemment c'est normal s'il est orange et
                                                 plus noir, elle l'aurait retrouvé dans un produit chimique spécial. Je
                                                 la crois sur parole !"</p>
                                 </article>
 
                                 <article class="bloc4-client">
-                                        <img class="picture-client" src="../ressources/images/testimony-4.png" alt="photo-client4">
+                                        <img class="picture-client" src="../ressources/images/testimony-4.png"
+                                                alt="photo-client4">
                                         <p class="client-name">Coupéhala H.</p>
                                         <p class="client-name__testimonial">"Supervif a été super, il m'a sortie des
                                                 bouchons et amenée au travail en un temps record. Par contre j'aimerais
@@ -241,17 +247,30 @@
                         </div>
 
                 </section>
-                
+
                 <section>
                         <h1>Sauvez-moi !</h1>
 
-                        <form>
-                        
-                        Nom
-                        Email
-                        Service (Super Déménagement - Livraison de Repas - Z'héro Bouchons - Sauvetage de soirée - Moral
-                        à Z'héro)
-                        Message
+                        <form class="formulaire">
+                                <label for="Name">Nom</label>
+                                <input class="formulaire-field" type="text" id="Name" name="Nom">
+
+                                <label for="Email">Email</label>
+                                <input class ="formulaire-field" type="Email" id="Email" Email="Email">
+
+                                <label for="Service">Service</label>
+                                <select class ="formulaire-field__service" id="service" name="service">
+
+                                        <option value="Super Déménagement">Super Déménagement</option>
+                                        <option value="Livraison de repas">Livraison de repas</option>
+                                        <option value="Z'héro Bouchons">Z'héro Bouchons</option>
+                                        <option value="Sauvetage de soirée">Sauvetage de soirée</option>
+                                        <option value="Moral à Z'héro">Moral à Z'héro</option>
+                                </select>
+
+                                        <label for="message">Message</label>
+                                        <textarea class ="formulaire-field__message" id="message" name="user-message"></textarea>
+                                        <button class="formulaire-field__button" type="submit">Envoyer</button>
                         </form>
                 </section>
         </main>

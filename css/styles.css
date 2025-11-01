@@ -389,4 +389,64 @@ h4 {
   line-height: 1.5;
 }
 
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  gap : 1rem;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.formulaire-field {
+  padding-top: 2rem;
+  background-color: #4D4D4D;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+.formulaire-field__service {
+  padding-top: 2rem;
+  background-color: #4D4D4D;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 20px;
+  line-height: 2rem;
+}
+
+.formulaire-field__message {
+  padding-top: 8rem;
+  background-color: #4D4D4D;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+.formulaire-field__button {
+  text-align: center;
+  background-color: #A29BFE;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+  width: 20%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer {
+  background-color: #856CFF;
+}
+
+
 
