@@ -337,27 +337,10 @@ h4 {
   flex-direction: row;
   margin-left: 1rem;
   margin-right: 1rem;
+  gap: -1rem;
 }
 
-.bloc1-client, .bloc2-client, .bloc3-client, .bloc4-client {
-  /*
-  display : flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: #938CE6;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  border-top-right-radius: 150px;
-  border-top-left-radius: 150px;
-  width: 25%;
-  padding-top: 120px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: relative;
-  */
-  
+.bloc1-client, .bloc2-client, .bloc3-client, .bloc4-client { 
   width: 300px;
   margin: 50px auto;
   background: linear-gradient(180deg, #A29BFE 0%, #938CE6 100%);
@@ -384,32 +367,7 @@ h4 {
   transform: translateX(-50%);
   box-shadow: 0 4px 16px 0 rgba(162,155,254,0.32);
   z-index: 2;
-  /*
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 10px solid #A29BFE;
-  margin-top: -100px;
-  z-index: 2;
-  background-color: #938CE6;
-  position:absolute;
-  top: -30%;
-  */
 }
-
-  /*
-  border-radius: 190px;
-  margin-top: 0.3rem;
-  margin-bottom: 1rem;
-  border: 10px solid #A29BFE;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-*/
-
 
 .client-name {
   margin-top: 8rem;
@@ -418,29 +376,17 @@ h4 {
   font-weight: 900;
   color: #FFFFFF;
   text-align: center;
-  
-  /*
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  */
 }
 
 .client-name__testimonial {
-    margin: 1.5rem 2rem 0 2rem;
+  margin: 1.5rem 2rem 0 2rem;
   font-family: "Satoshi", Arial, sans-serif;
   font-size: 1rem;
+  font-weight: 100;
   font-style: italic;
   color: #fff;
   text-align: center;
   line-height: 1.5;
-  /*
-  font-size: 1rem;
-  font-weight: 100;
-  font-style: italic;
-  text-align: center;
-  */
 }
 
 
