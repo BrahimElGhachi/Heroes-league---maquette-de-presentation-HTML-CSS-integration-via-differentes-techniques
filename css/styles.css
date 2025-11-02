@@ -420,12 +420,15 @@ h4 {
 }
 
 .formulaire-field__message {
-  padding-top: 8rem;
   background-color: #4D4D4D;
   color: #fff;
   font-weight: bold;
   font-size: 1rem;
   border-radius: 20px;
+}
+
+textarea {
+  height: 8rem;
 }
 
 .formulaire-field__button {
@@ -446,7 +449,40 @@ h4 {
 
 footer {
   background-color: #856CFF;
+  color:#FFFFFF;
+  border-top-right-radius: 85px;
+  border-top-left-radius: 85px;
 }
+
+h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.footer-title__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-style: italic;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.foot__nav_item {
+  display: block;
+}
+
+.footer__copyright {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+
 
 
 
