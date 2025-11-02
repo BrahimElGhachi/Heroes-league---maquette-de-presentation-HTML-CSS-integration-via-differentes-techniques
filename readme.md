@@ -1,63 +1,63 @@
-# Heros League a besoin de toi !
+# Heroes League – Maquette HTML/CSS
 
-**Heros League&trade;** est une société de mise à disposition de **super-héros** pour des situations d'urgence en tout genre. Nous avons besoin de toi pour créer un site web qui permettra de présenter nos différents services et de pouvoir lancer un appel à l'aide.
+Bienvenue dans le dépôt de **Heroes League**, une maquette web immersive et originale qui présente une agence fictive de super-héros. Ce projet met en avant des compétences solides en intégration HTML/CSS, une approche responsive, et une direction artistique humoristique et soignée.
 
-Pour l'instant ce n'est qu'**une page d'accueil**, mais on te recontactera rapidement pour **ajouter de nouvelles fonctionnalités.**
+---
 
-**Prêt à servir la League ?** :muscle: :rocket:
+## Objectifs du projet
 
-Tu trouveras dans les **ressources** tout ce dont tu as besoin pour réaliser ce projet.
+- Mettre en pratique les compétences en intégration HTML/CSS
+- Créer une expérience utilisateur originale et cohérente
+- Travailler la responsivité et l’esthétique d’une interface web
+- Valoriser une identité graphique forte
 
-## Consignes
+---
 
-- La police d'écriture est celle-ci : [Satoshi](https://www.fontshare.com/?q=Satoshi)
-  - Le designer nous a dit qu'il y avait pas mal de graisses différentes à prendre
-- Pour les couleurs, on ne les a plus sous la main, mais on imagine que tu trouveras un moyen de les récupérer :wink:
-- N'hésite pas à prendre la maquette de la home et la glisser / déposer dans ton navigateur pour la voir comme si c'était le site web (appuie sur la maquette dans le navigateur pour la zoomer à la largeur de l'écran)
-- Les liens du menus doivent être des ancres qui pointent vers la section correspondante
-- La première section avec la grande image doit prendre tout l'espace disponible dans la hauteur de l'écran (et ne pas dépasser !)
-- Au survol d'un héros, un texte supplémentaire doit apparaître par dessus l'image (voir maquette). Petit détail, le texte doit apparaître par le haut de l'image
-- Il y a un bouton pour voir plus de héros mais pour le moment il n'y a pas de page de prévue par le designer, donc renseigne "#" en lien, on verra plus tard !
-- Sinon tu es libre de faire comme tu veux, tant que ça ressemble à la maquette ! :smile:
+## Technologies utilisées
 
-## Maquette globale
+- **HTML5** : structure sémantique avec `section`, `article`, `header`, `footer`, `form`, etc.
+- **CSS3** :
+  - Mise en page avec **Flexbox** et **CSS Grid**
+  - Responsive design via **media queries**
+  - Effets visuels : `box-shadow`, `border-radius`, `linear-gradient`, `hover`, `transition`
+  - Typographie personnalisée avec `@font-face` (police **Satoshi**)
 
-![Home](./ressources/home.png)
+---
 
-### Header
+## Méthodes d’intégration
 
-Le menu doit passer par dessus le contenu au scroll.
+### 1. Structure HTML modulaire
+- Navigation ancrée avec `id` pour chaque section
+- Utilisation de `article` pour les blocs de services, héros et témoignages
+- Formulaire accessible avec `label`, `input`, `select`, `textarea`
 
-![Header](./ressources/header.png)
+### 2. Mise en page CSS avancée
+- **Flexbox** pour les éléments horizontaux (header, navigation, témoignages)
+- **CSS Grid** pour les sections de services et héros avec positionnement personnalisé (`grid-row`, `grid-column`)
+- **Responsive design** :
+  - Media queries pour smartphones et tablettes
+  - Réorganisation des grilles en une seule colonne
+  - Redimensionnement des images et des blocs
 
-## Hovers
+### 3. Effets visuels
+- Images circulaires avec `border-radius: 50%` et `object-fit: cover`
+- Cartes témoignages avec `box-shadow`, `linear-gradient`, positionnement absolu
+- Hover interactif sur les héros avec `opacity` et `transition`
+- Boutons stylisés avec `border-radius`, `background-color`, centrage automatique
 
-### Menu
+### 4. Typographie
+- Intégration manuelle de la police **Satoshi** via `@font-face`
+- Utilisation des variantes `Light`, `Regular`, `Bold`, `Black` pour hiérarchiser les contenus
 
-![Menu](./ressources/menu-hover.png)
+---
 
-### Héros
+## Responsive Design
 
-![Héros](./ressources/hover-hero.png)
+Le site est entièrement responsive :
+- Sur mobile : navigation verticale, images redimensionnées, blocs empilés
+- Sur tablette : colonnes simplifiées, paddings ajustés
+- Sur desktop : grilles complexes, effets visuels complets
 
-### Bouton
+## Aperçu de la maquette 
 
-![Bouton](./ressources/button-hover.png)
-
-### Footer menu 
-
-![Footer menu](./ressources/footer-menu-hover.png)
-
-## Input Focus Outline
-
-![Input Focus Outline](./ressources/input-focus.png)
-
-## Responsive
-
-### Tablette
-
-![Tablette](./ressources/home-tablet.png)
-
-### Mobile
-
-![Mobile](./ressources/home-phone.png)
+![Aperçu de Heroes League] (maquette/maquette.png)
