@@ -60,4 +60,4 @@ Le site est entièrement responsive :
 
 ## Aperçu de la maquette 
 
-![Aperçu de Heroes League] (./maquette/maquette.png)
+![Aperçu de Heroes League] (maquette/maquette.png)
